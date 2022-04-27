@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Roboto Condensed', sans-serif;
+}
+.main-content{
+	min-height: 1000px;
+	display: grid;
+	grid-template-columns: 300px 700px;
+}
+.left-section{
+	background: yellowgreen;
+}
+.rigth-section{
+	background: beige;
+}
+.left-content{
+	padding: 1rem;
+}
+.profile-image{
+	width: 60%;
+	display: block;
+	margin: auto;
+	border-radius: 30%;
+	border: 5px solid white;
+}
+.name{
+	font-size: 1.2rem;
+	 font-weight: 700; 
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 0.02px;
+	padding: 0.8rem;
+}
+.designation{
+	text-transform: uppercase;
+	font-size: 1rem;
+	padding-bottom: 0.5rem;
+	text-align: center;
+}
+.discription{
+	text-align: center;
+	font-size: 0.75rem;
+	padding: 1rem;
+}
+.social-links{
+	display: flex;
+	justify-content: center;
+
+}
+.icon{
+	list-style: none;
+	margin:0 20px;
+
+}
+.personal-details{
+	margin-top: 20px;
+}
+.skills-title{
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 0.75rem;
+	padding: 1rem 0.5rem;
+}
+.skill-name{
+	font-size: 0.65rem;
+	text-align: left;
+	padding-bottom: 0.5rem;
+}
+.progress-bar{
+	border: 1px solid white;
+	height: 4px;
+
+}
+.right-main-content{
+	padding: 2rem 3rem;
+}
+.right-title{
+text-transform: uppercase;
+font-size: 1.2rem;
+font-weight: 700;
+padding: 0.5rem;
+letter-spacing: 1px;
+}
+.education-content{
+	display: flex;
+	justify-content: space-between;
+}
+.degree{
+	width: 400px;
+}
+@media only screen and (max-width: 674px) {
+  .main-content{
+	grid-template-columns:repeat(1,1fr);
+}
+}
